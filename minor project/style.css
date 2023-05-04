@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  background:#DEE9EF;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form h2 {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* home page */
+
+nav{
+  width: 100%;
+  display: flex;
+ 
+  align-items:center;
+  
+}
+.logo{
+  
+  margin: 10px;
+  font-size: 25px;
+}
+
+.nav_item{
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+marquee{
+  background-color: #35418eff;
+  margin-top:10px;
+  font-size: 25px;
+  /* opacity: 0.4; */
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.fillter{
+  width: 20rem;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+.fillter h3{
+  padding:10px;
+}
+.fillter_item{
+  padding:10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.content{
+  width:80rem;
+  height: 100%;
+  display: flex;
+  justify-content:space-around;
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  
+}
+.box{
+width: 10rem;
+height: 120px;
+margin-left: 5px;
+  /* background-color:aqua; */
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: -5px 5px 0px 0px  white;
+  
+} 
+
+
+
+.footer_container{
+  width:100%;
+  background-color:#000;
+  color: #fff;
+  text-align:center;
+}
+
+/* contact */
+
+.contact-us {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us label {
+  margin-top: 10px;
+}
+
+.contact-us input,
+.contact-us textarea {
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 3px;
+  resize: none;
+}
+
+.contact-us button {
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* about */
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h1{
+  font-size:30px;
+  margin: 10px 10px;
+}
+
+.about_content{
+  width:90%;
+  
+}
+.about_content p{
+  font-size:20px;
+  /* text-align: center; */
+  margin: 5px 5px;
+}
+.image{
+  width:90%;
+  /* height: 200px; */
+}
+
+.image img{
+  background-size: cover;
+  background-position: center center;
+  height: 60%;
+  width: 100%;
+}
